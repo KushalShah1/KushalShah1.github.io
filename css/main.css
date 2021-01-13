@@ -6,10 +6,11 @@
 
 
 .window {
-  background: rgba(0,25,39,1);
-  opacity: 1;
-  overflow: hidden;
+  min-height: 100%;
+  background-image:url("../images/background.png");
+  background-size:cover;
 }
+
 .logo {
   width: 66px;
   height: 70px;
@@ -93,8 +94,8 @@
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 280px;
-  right: 118px;
+  top: 25vh;
+  right: 7vw;
   overflow: hidden;
   border-radius: 50%;
 
@@ -129,6 +130,7 @@
   opacity: 1;
   overflow:auto;
   font-size: x-large;
+  max-width: 57vw;
 }
 .v22_8 {
   width: fit-content;
@@ -156,8 +158,8 @@
   height: auto;
   opacity: 1;
   position: absolute;
-  top: 336px;
-  left: 120px;
+  top: 30vh;
+  left: 7vw;
   overflow:hidden;
 }
 .iconcont {
