@@ -25,6 +25,10 @@
   left: 50px;
   top: 50px;
   overflow: hidden;
+  transition: transform .1s;
+}
+.logo:hover{
+  transform: scale(1.1);
 }
 .about {
   width: 60px;
@@ -39,9 +43,11 @@
   opacity: 1;
   text-align: left;
   border: 0;
+  transition: transform .1s;
 }
 .about:hover {
   color:rgba(97,227,219,1);
+  transform: scale(1.1);
 }
 .projects {
   width: 84px;
@@ -56,9 +62,11 @@
   opacity: 1;
   text-align: left;
   border: 0;
+  transition: transform .1s;
 }
 .projects:hover {
   color:rgba(97,227,219,1);
+  transform: scale(1.1);
 }
 .ltalk {
   width: 89px;
@@ -73,9 +81,11 @@
   font-size: 24px;
   opacity: 1;
   text-align: left;
+  transition: transform .1s;
 }
 .ltalk:hover {
   color: white;
+  transform: scale(1.1);
 }
 .pic {
   width: 300px;
@@ -104,8 +114,11 @@
   top: 545px;
   left: 118px;
   overflow: hidden;
+  transition: transform .1s;
 }
-
+.buttonback:hover{
+  transform: scale(1.1);
+}
 .v5_1 {
   width: 62px;
   color: rgba(255,255,255,1);
@@ -118,6 +131,7 @@
   opacity: 1;
   text-align: left;
 }
+
 .cont {
   width: 843px;
   height: 188px;
@@ -177,4 +191,28 @@
   font-size: 24px;
   opacity: 1;
   text-align: left;
+}
+
+.iconcont {
+  width: 280px;
+  height: 60px;
+  position: absolute;
+  right:0;
+  bottom: 0;
+  overflow:hidden
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  color: white;
+  transition: transform .1s;
+}
+.icon:hover{
+  transform: scale(1.1);
+}
+.linkcont{
+  float: left;
+  width: 45px;
+  height: 60px;
+  overflow: hidden;
 }
