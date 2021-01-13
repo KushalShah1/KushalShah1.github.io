@@ -104,52 +104,38 @@
 }
 .buttonback {
   width: 130px;
-  height: 50px;
   background: url("../images/button.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size:contain;
   opacity: 1;
-  position: absolute;
-  top: 545px;
-  left: 118px;
   overflow: hidden;
   transition: transform .1s;
+  text-align: center;
+  line-height: 50px;
+  font-family: Signika;
+  font-weight: Bold;
+  font-size: 18px;
+  color: rgba(255,255,255,1);
+  border-top: 20px solid transparent;
+  border-left: 7px solid transparent;
+  border-bottom: 20px solid transparent;
+  margin-top: 20px;
 }
 .buttonback:hover{
   transform: scale(1.1);
 }
-.v5_1 {
-  width: 62px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 14px;
-  left: 34px;
-  font-family: Signika;
-  font-weight: Bold;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
 
 .cont {
-  width: 843px;
-  height: 188px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  width: auto;
+  height: auto;
   opacity: 1;
-  position: relative;
-  top: 336px;
-  left: 120px;
-  overflow: hidden;
+  overflow:auto;
 }
 .v22_8 {
-  width: 491px;
+  width: fit-content;
+  height: fit-content;
   color: rgba(255,255,255,1);
-  position: relative;
-  top: 0px;
-  left: 0px;
   font-family: Signika;
   font-weight: Bold;
   font-size: 64px;
@@ -157,42 +143,25 @@
   text-align: left;
 }
 .v22_9 {
-  width: 843px;
+  width: fit-content;
+  height: fit-content;
+  word-wrap: normal;
   color: rgba(255,255,255,1);
-  position: absolute;
-  top: 92px;
-  left: 0px;
   font-family: Signika;
   font-weight: Bold;
   font-size: 24px;
   opacity: 1;
   text-align: left;
 }
-.v22_10 {
-  width: 443px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 125px;
-  left: 0px;
-  font-family: Signika;
-  font-weight: Bold;
-  font-size: 24px;
+.textbuttoncont{
+  width: auto;
+  height: auto;
   opacity: 1;
-  text-align: left;
-}
-.v22_11 {
-  width: 354px;
-  color: rgba(255,255,255,1);
   position: absolute;
-  top: 158px;
-  left: 0px;
-  font-family: Signika;
-  font-weight: Bold;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
+  top: 336px;
+  left: 120px;
+  overflow:hidden;
 }
-
 .iconcont {
   width: 280px;
   height: 60px;
